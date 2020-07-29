@@ -1,0 +1,12 @@
+<!--components/actionSheet/actionSheet.wxml-->
+<!-- 底部弹窗功能 -->
+<view class="action-sheet-module" wx:if="{{isShowActionSheet}}" catchtouchmove="true">
+	<view class="action-sheet-list">
+		<button size="default" class="action-sheet-item" hover-class="click-active" wx:for="{{actionSheetArr}}" wx:for-item="item" data-index="{{index}}" catchtap="actionSheetSelect" open-type="{{item.openType}}">
+			{{item.name}}
+		</button>
+		<view class="action-sheet-cancel" catchtap="actionSheetCancel">
+			取消
+		</view>
+	</view>
+</view>

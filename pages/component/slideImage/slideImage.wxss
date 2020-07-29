@@ -1,0 +1,21 @@
+/* pages/componentPage/slideImage/slideImage.wxss */
+/*轮播控件*/
+.swiper-box {
+  width: 100%;
+  height: 360rpx;
+}
+
+.slide-item {
+  margin: 0;
+}
+
+.avater {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.nick-name {
+  font-size: 28rpx;
+  color: #333;
+}

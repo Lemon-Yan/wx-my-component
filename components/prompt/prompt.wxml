@@ -1,0 +1,14 @@
+<!--components/prompt/prompt.wxml-->
+<view class="prompt-moduel" wx:if="{{isShowPrompt}}" catchtouchmove="true">
+	<view class="prompt-wrapper">
+		<view class="prompt-title">{{promptTitle}}</view>
+		<view class="prompt-con">
+			<input class="prompt-input" placeholder="{{placeholderTxt}}" value="{{promptVal}}" focus="true" bindinput="promptInput"></input>
+			<view class="err" wx:if="{{isLength20}}">不能超过20字</view>
+		</view>
+		<view class="foot-btn">
+			<view class="prompt-btn prompt-cancel" catchtap="promptCancel">取消</view>
+			<view class="prompt-btn prompt-confirm" catchtap="promptConfirm">确定</view>
+		</view>
+	</view>
+</view>

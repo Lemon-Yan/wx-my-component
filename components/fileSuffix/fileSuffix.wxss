@@ -1,0 +1,5 @@
+/* components/fileSuffix/fileSuffix.wxss */
+.file-type{
+  width: 60rpx;
+  height: 60rpx;
+}

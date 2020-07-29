@@ -1,0 +1,25 @@
+/* pages/extend/componentAndPage/componentAndPage.wxss */
+.wrapper{
+  padding: 30rpx;
+  overflow: hidden;
+  word-break: break-all;
+  text-overflow: ellipsis;
+}
+
+.title{
+  font-size:30rpx;
+  color:#333;
+  letter-spacing: 3rpx;
+  line-height: 60rpx; 
+  margin-top:30rpx;
+}
+.desc{
+  font-size:28rpx;
+  color:#666;
+  line-height: 60rpx;
+  letter-spacing: 3rpx;
+}
+
+.red{
+  color:red;
+}

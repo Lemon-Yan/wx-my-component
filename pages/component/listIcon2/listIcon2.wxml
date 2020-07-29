@@ -1,0 +1,57 @@
+<!--pages/componentPage/listIcon2/listIcon2.wxml-->
+<view class="wrapper">
+	<!-- 个人信息 -->
+	<view class="self-info">
+		<view class="avater">
+			<image src="../../../images/pig.jpg"></image>
+		</view>
+		<view class="nick">张三</view>
+		<!-- <view class="message-tips">6条消息 ></view> -->
+	</view>
+	<!-- 功能创建 -->
+	<view class="create-list">
+		<view class="create-item">
+			<image src="../../../images/pig.jpg"></image>
+			<view class="title">创建群组</view>
+		</view>
+		<view class="create-item">
+			<image src="../../../images/pig.jpg"></image>
+			<view class="title">创建群组</view>
+		</view>
+		<view class="create-item">
+			<image src="../../../images/pig.jpg"></image>
+			<view class="title">创建群组</view>
+		</view>
+	</view>
+	<!-- 功能列表 -->
+	<view class="group-list">
+		<view class="group-item">
+			<view class="group-img">
+				<image src="../../../images/pig.jpg"></image>
+			</view>
+			<view class="group-con">
+				<view class="group-title">
+					<text>今日代办（3）</text>
+					<text class="time">15:35</text>
+				</view>
+				<view class="group-desc">业务插件授权与优化</view>
+			</view>
+			<view class="next-r">
+				<image src="../../../images/comm/right-arrow.png"></image>
+			</view>
+		</view>
+
+		<view class="group-item">
+			<view class="group-img">
+				<image src="../../../images/pig.jpg"></image>
+			</view>
+			<view class="group-con">
+				<view class="group-title">今日代办（3）</view>
+			</view>
+			<view class="next-r">
+				<image src="../../../images/comm/right-arrow.png"></image>
+			</view>
+		</view>
+
+	</view>
+</view>

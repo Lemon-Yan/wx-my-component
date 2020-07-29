@@ -1,0 +1,20 @@
+<!--components/communicationPage/communicationPage.wxml-->
+<view>组件头部</view>
+ <!--1、向组件传递数据 title的值是页面传过来的/或默认的-->
+	<view class='title'>{{title}}</view> 
+
+<!--2、titleclass类名的值是页面传过来的-->
+<view class='title titleclass'>我是组件</view>
+
+<!--3、组件向外传递事件 — 自定义事件-->
+<button size='mini' bind:tap="handleIncrement">+1</button>
+
+
+<!-- 4、页面直接调用组件修改数据/方法 -->
+<view>组件内的计数：{{counter}}</view>
+
+<!-- 5、插槽 -->
+<slot name="slot1"></slot>
+<slot name="slot2"></slot>
+
+<view>组件尾部</view>

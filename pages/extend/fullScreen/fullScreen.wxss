@@ -1,0 +1,4 @@
+/* pages/extend/fullScreen/fullScreen.wxss */
+image{
+  width:100%; 
+}

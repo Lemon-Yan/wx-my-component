@@ -1,0 +1,21 @@
+<!--pages/component/component.wxml-->
+<view class="wrapper">
+	<view class="list">
+		<view class="list-item" wx:for="{{listArr}}" data-index="{{index}}"  catchtap="slideList">
+			<view class="list-item-title">{{item.title}}</view>
+			<view class="right-icon">
+				<image src="../../images/comm/right-arrow.png"></image>
+			</view>
+			<!-- 子组件 -->
+			<view class="list-item-child {{item.checked?'childListShow':''}}">
+				<view class="list-item-child-item" hover-class="hover-active" wx:for="{{item.child}}" wx:for-item="childItem" data-page="{{childItem.page}}" catchtap="listPage">
+					<view class="title">{{childItem.title}}</view>
+					<view class="icon">
+						<image src="../../images/comm/right-arrow.png"></image>
+					</view>
+				</view>
+			</view>
+		</view>
+
+	</view>
+</view>

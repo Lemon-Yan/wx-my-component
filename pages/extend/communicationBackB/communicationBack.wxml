@@ -1,0 +1,5 @@
+<!--pages/extend/communicationBackB/communicationBack.wxml-->
+<view class="wrapper">
+  <input class="phone-input" placeholder="请输入手机号" value="{{phone}}" bindinput="bindPhone"/>
+  <view class="btn" catchtap="setPhone">设置手机号</view>
+</view>

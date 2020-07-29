@@ -1,0 +1,10 @@
+<!--pages/test/test.wxml-->
+<view class="wrapper">
+	<view class="phone">手机号：{{phone}}</view>
+	<view class="btn-default" catchtap="insert">打开二级页面</view>
+	<view class="desc">
+		<view>使用场景：</view>
+		<view>当A页面进入B页面时，B页面数据修改，需要通知A页面的情况。例如，B页面数据修改，通知A页面刷新数据。</view> 
+		<view class="mt20">通过页面路由wx.navigateTo()方法实现页面间通信的方式。</view>
+	</view>
+</view>

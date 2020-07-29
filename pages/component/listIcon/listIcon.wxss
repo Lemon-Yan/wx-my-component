@@ -1,0 +1,103 @@
+/* pages/componentPage/listIcon/listIcon.wxss */
+page {
+  background-color: #f8f8f8;
+}
+
+.userinfo {
+  padding: 20rpx 25rpx;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.avater {
+  width: 100rpx;
+  height: 100rpx;
+  float: left;
+  margin-right: 30rpx;
+}
+
+.avater image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 10rpx;
+}
+
+.userinfo-name {
+  font-size: 32rpx;
+  color: #333;
+  margin-top: 33rpx;
+}
+
+.userinfo-right-icon {
+  margin: 0;
+  position: absolute;
+  top: 45rpx;
+  right: 25rpx;
+}
+
+.userinfo-right-icon image {
+  width: 45rpx;
+  height: 45rpx;
+}
+
+.list {
+  margin-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+
+.list-item {
+  border-bottom: solid #f1f1f1 1rpx;
+  display: flex;
+  position: relative;
+  background-color: #fff;
+  padding: 30rpx 25rpx;
+}
+
+.list-item:last-child {
+  border: none;
+}
+
+.list-item-title {
+  flex: 1;
+  font-size: 32rpx;
+  color: #333;
+}
+
+.list-item-title text {
+  position: relative;
+  top: -12rpx;
+  display: inline-block;
+}
+
+.list-item-title .left-icon {
+  display: inline-block;
+  margin-right: 30rpx;
+}
+
+.left-icon image {
+  width: 56rpx;
+  height: 56rpx;
+}
+
+.right-icon {
+  position: absolute;
+  top: 35rpx;
+  right: 25rpx;
+}
+
+.right-icon image {
+  width: 45rpx;
+  height: 45rpx;
+}
+
+.right-desc {
+  font-size: 30rpx;
+  color: #666;
+  position: relative;
+  top: -10rpx;
+}
+
+.hover-active {
+  background-color: #f1f1f1;
+}

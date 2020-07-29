@@ -1,0 +1,64 @@
+/* pages/componentPage/list/list.wxss */
+page {
+  background-color: #f8f8f8;
+}
+
+.list {
+  margin-bottom: 20rpx;
+  background-color:#fff;
+}
+
+.list-title {
+  font-size: 26rpx;
+  color: #999;
+  height: 80rpx;
+  line-height: 80rpx;
+  padding-left: 30rpx;
+  background-color: #f8f8f8;
+}
+
+.list-item {
+  line-height: 100rpx;
+  border-bottom: solid #f1f1f1 1rpx;
+  position: relative;
+}
+
+.list-item-title {
+  padding-left: 20rpx;
+  font-size: 32rpx;
+  color: #333;
+}
+
+.list-item-title text {
+  position: relative;
+  top: -20rpx;
+  display: inline-block;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 10rpx;
+  right: 15rpx;
+}
+
+.right-arrow image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+/* list-bottom */
+.b-bottom {
+  margin-left: 20rpx;
+  padding-left: 0 !important;
+}
+
+.right-desc {
+  font-size: 30rpx;
+  color: #666;
+  position: relative;
+  top: -10rpx;
+}
+
+.hover-active {
+  background-color: #f1f1f1;
+}

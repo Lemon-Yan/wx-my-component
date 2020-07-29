@@ -1,0 +1,7 @@
+<!--components/downloadProgress/downloadProgress.wxml-->
+<view class="download-module" wx:if="{{isShowDownload}}" catchtouchmove="true" catchtap="cancelDonw">
+	<view class="download-wrapper">
+		<view class="download-progress">{{progress+'%'}}</view>
+		<view class="download-tips">加载中</view>
+	</view>
+</view>

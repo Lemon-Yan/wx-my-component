@@ -1,0 +1,9 @@
+/* pages/extend/communicationJsB/communicationJs.wxss */
+.phone-input {
+  border: solid #ccc 1rpx;
+  padding: 20rpx 15rpx;
+  font-size: 30rpx;
+  color: #333;
+  margin: 30rpx;
+  border-radius: 10rpx; 
+}

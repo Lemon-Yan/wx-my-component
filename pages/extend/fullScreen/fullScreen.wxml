@@ -1,0 +1,5 @@
+<!--pages/extend/fullScreen/fullScreen.wxml-->
+<view class="wrapper">
+   <image src="../../../images/bg1.jpg" mode="width"></image>
+   <view class="btn-default" catchtap="back">返回</view>
+</view>

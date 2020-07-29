@@ -1,0 +1,28 @@
+<!--pages/componentPage/listIcon/listIcon.wxml-->
+<view class="wrapper">
+	<!-- 头像 -->
+	<view class="userinfo" hover-class="hover-active">
+		<view class="avater">
+			<image src="../../../images/pig.jpg"></image>
+		</view>
+		<view class="userinfo-name">张三</view>
+		<view class="userinfo-right-icon">
+			<image src="../../../images/comm/right-arrow.png"></image>
+		</view>
+	</view>
+	<!-- 功能列表 -->
+	<view class="list">
+		<view class="list-item" hover-class="hover-active" wx:for="{{myList}}" data-index="{{item.tabIndex}}" catchtap="see">
+			<view class="list-item-title">
+				<view class="left-icon">
+					<image src="{{item.icon}}"></image>
+				</view>
+				<text>{{item.title}}</text>
+			</view>
+			<view class="right-icon">
+				<image src="../../../images/comm/right-arrow.png"></image>
+			</view>
+		</view>  
+	</view>
+
+</view>

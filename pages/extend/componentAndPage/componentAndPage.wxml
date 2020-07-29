@@ -1,0 +1,35 @@
+<!--pages/extend/componentAndPage/componentAndPage.wxml-->
+<view class="wrapper">
+	<view class="title">1、向组件传递数据 — properties</view>
+	<view class="desc">大部分情况下，组件只负责布局和样式，内容是由使用组件的对象来决定，所以，我们经常需要从外部传递数据给组件，让组件来进行展示。向组件传递数据 — 使用 properties 属性：</view>
+	<communicationPage></communicationPage>
+	<communicationPage slot="slot1" title="哈士奇"></communicationPage>
+	<communicationPage slot="slot1" title="泰迪"></communicationPage>
+
+	<view class="title">2、向组件传递样式 — externalClasses</view>
+	<view class="desc">有时候，我们不希望将样式在组件内固定不变，而是外部可以决定样式，这个时候，我们可以使用 externalClasses 属性：（1）在 Component 对象中，定义 externalClasses 属性（2）在组件内的 wxml 中使用 externalClasses 属性中的 class（3）在页面中传入对应的 class，并且给这个 class 设置样式。 </view>
+	<communicationPage titleclass="red"></communicationPage>
+
+	<view class="title">3、组件向外传递事件 — 自定义事件</view>
+	<view class="desc">有时候是自定义组件内部发生了事件，需要告知使用者（引用组件的页面），这个时候可以使用自定义事件：（1）监听组件的点击，为其绑定点击函数（2）在组件的 js 文件定义点击函数，并通过：this.triggerEvent('increment',{name:'erha'},{}); 的方式向外传递事件（3）在页面的的组件占位符上对组件发射出来的事件进行监听，并在页面的 js 文件对鉴定事件进行定义（4）在页面的 js 文件中可以通过 event 参数拿到组件传递过来的 payload 参数。</view>
+	<view>{{count}}</view>
+	<communicationPage bind:increment="handleIncrement"></communicationPage>
+
+	<view class="title">4、页面直接调用组件修改数据/方法 — this.selectComponent</view>
+	<view class="desc">在页面或者别的组件中，可以通过 selectComponent() 方法获取指定的 id 或 class 的组件对象（推荐使用 id 的方式），然后通过该组件对象即可直接调用该组件内的数据和方法，不推荐直接修改组件中的数据，而是调用组件内的方法修改组件内的数据。</view>
+	<communicationPage id="counterId"></communicationPage>
+	<button size='mini' bind:tap="handleEncrementcpnt">修改组件内的数据</button>
+
+
+	<view class="title">5、多个插槽的使用</view>
+	<view class="desc">有时候为了让组件更加灵活，需要定义多个插槽，为了区分它们，需要给每一个组件 name 属性，而且还必须在组件的 Component 对象中添加一个选项：options：{ multipleSlots:true }。</view>
+	<communicationPage>
+		<view slot="slot1">插槽1</view>
+	</communicationPage>
+	<communicationPage>
+		<view slot="slot2"><button size='mini' slot="slot2">插槽按钮</button></view>
+	</communicationPage> 
+
+  <view class="title">原文地址：https://blog.csdn.net/Marker__/article/details/103986713</view>
+
+</view>

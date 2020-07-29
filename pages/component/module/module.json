@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "prompt":"../../../components/prompt/prompt",
+    "fileSuffix":"../../../components/fileSuffix/fileSuffix",
+    "downloadProgress":"../../../components/downloadProgress/downloadProgress",
+    "actionSheet":"../../../components/actionSheet/actionSheet"
+  }
+}

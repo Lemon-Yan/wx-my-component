@@ -1,0 +1,9 @@
+/* pages/componentPage/moduel/moduel.wxss */
+.btn{
+  margin:20rpx;
+}
+
+.file-list image{
+  width:60rpx;
+  height: 60rpx;
+}

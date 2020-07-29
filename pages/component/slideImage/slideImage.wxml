@@ -1,0 +1,11 @@
+<!--pages/componentPage/slideImage/slideImage.wxml-->
+<view class="container">
+    <!--轮播图-->
+  <swiper class="swiper-box" indicator-dots="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for-items="{{slideList}}">
+      <swiper-item class="slide-item">
+        <image src="{{item.avater}}" class="avater" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

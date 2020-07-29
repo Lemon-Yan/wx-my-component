@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/component/component",
+    "pages/extend/extend",
+    "pages/test/test",
+    "pages/test2/test2",
+    "pages/component/list/list",
+    "pages/component/listIcon/listIcon",
+    "pages/component/listSlide/listSlide",
+    "pages/component/slideImage/slideImage",
+    "pages/component/listIcon2/listIcon2",
+    "pages/component/module/module",
+    "pages/interface/interface",
+    "pages/interface/login/login",
+    "pages/interface/share/share",
+    "pages/extend/communicationJsA/communicationJs",
+    "pages/extend/communicationJsB/communicationJs",
+    "pages/extend/communicationBackA/communicationBack",
+    "pages/extend/communicationBackB/communicationBack",
+    "pages/extend/communicationInsertA/communicationInsert",
+    "pages/extend/communicationInsertB/communicationInsert",
+    "pages/extend/toNav/toNav",
+    "pages/extend/chat/chat",
+    "pages/extend/fullScreen/fullScreen",
+    "pages/extend/componentAndPage/componentAndPage",
+    "pages/test3/test3"
+  ],
+  "tabBar": {
+    "position": "bottom",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/component/component",
+        "text": "组件",
+        "iconPath": "images/tabBar/component.png",
+        "selectedIconPath": "images/tabBar/component-a.png"
+      },
+      {
+        "pagePath": "pages/extend/extend",
+        "text": "扩展",
+        "iconPath": "images/tabBar/extend.png",
+        "selectedIconPath": "images/tabBar/extend-a.png"
+      },
+      {
+        "pagePath": "pages/interface/interface",
+        "text": "接口",
+        "iconPath": "images/tabBar/interface.png",
+        "selectedIconPath": "images/tabBar/interface-a.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

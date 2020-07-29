@@ -1,0 +1,17 @@
+<!--pages/componentPage/moduel/moduel.wxml-->
+<view class="container">
+	<button class="btn" catchtap="openPrompt">定义prompt组件</button>
+	<button class="btn" catchtap="openActionSheet">定义actionSheet组件</button>
+	<button class="btn" catchtap="openDownloadProgress">定义downloadProgress组件</button>
+  <!-- download -->
+  <downloadProgress isShowDownload="{{isShowDownload}}" progress="{{progress}}"></downloadProgress>
+	<!-- prompt -->
+	<prompt isShowPrompt="{{isShowPrompt}}" promptTitle="{{promptTitle}}" placeholderTxt="{{placeholderTxt}}" promptVal="{{promptVal}}" bind:promptConfirmTri="promptConfirm"></prompt>
+	<!-- suffix --> 
+	<view class="file-list" wx:for="{{fileList}}" wx:for-item="item">
+     <view>{{item.name}}</view>
+		<fileSuffix fileType="{{item.type}}"></fileSuffix>
+	</view>
+	<!-- actionSheet -->
+	<actionSheet isShowActionSheet="{{isShowActionSheet}}" bind:actionSheetSelectP="actionSheetSelectP"></actionSheet>
+</view>

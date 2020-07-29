@@ -1,0 +1,16 @@
+/* pages/extend/communicationBackA/communicationBack.wxss */
+.phone {
+  padding: 30rpx;
+  font-size: 32rpx;
+  color: #333;
+}
+
+.desc {
+  font-size: 28rpx;
+  line-height: 60rpx;
+  letter-spacing: 3rpx;
+  padding: 20rpx; 
+  word-break: break-all;
+  text-overflow: ellipsis; 
+  overflow: hidden;
+}

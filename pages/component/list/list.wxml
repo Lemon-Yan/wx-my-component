@@ -1,0 +1,52 @@
+<!--pages/componentPage/list/list.wxml-->
+<view class="wrapper">
+	<view class="list">
+		<view class="list-title">单行列表，底线与页面等宽</view>
+		<view class="list-item" hover-class="hover-active">
+			<view class="list-item-title">单行列表</view>
+			<view class="right-arrow">
+				<image src="../../../images/comm/right-arrow.png"></image>
+			</view>
+		</view>
+		<view class="list-item" hover-class="hover-active">
+			<view class="list-item-title">单行列表</view>
+			<view class="right-arrow">
+				<image src="../../../images/comm/right-arrow.png"></image>
+			</view>
+		</view>
+	</view>
+
+	<view class="list">
+		<view class="list-title">单行列表，底线左边距</view>
+		<view class="list-item b-bottom" hover-class="hover-active">
+			<view class="list-item-title b-bottom">单行列表</view>
+			<view class="right-arrow">
+				<image src="../../../images/comm/right-arrow.png"></image>
+			</view>
+		</view>
+		<view class="list-item b-bottom" hover-class="hover-active">
+			<view class="list-item-title b-bottom">单行列表</view>
+			<view class="right-arrow">
+				<image src="../../../images/comm/right-arrow.png"></image>
+			</view>
+		</view>
+	</view>
+
+	<view class="list">
+		<view class="list-title">单行列表，带描述信息</view>
+		<view class="list-item" hover-class="hover-active">
+			<view class="list-item-title">单行列表</view>
+			<view class="right-arrow">
+				<text class="right-desc">说明信息</text>
+				<image src="../../../images/comm/right-arrow.png"></image>
+			</view>
+		</view>
+		<view class="list-item" hover-class="hover-active">
+			<view class="list-item-title">单行列表</view>
+			<view class="right-arrow">
+				<text class="right-desc">说明信息</text>
+				<image src="../../../images/comm/right-arrow.png"></image>
+			</view>
+		</view>
+	</view>  
+</view>

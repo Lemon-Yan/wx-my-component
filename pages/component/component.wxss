@@ -1,0 +1,81 @@
+/* pages/component/component.wxss */
+page {
+  background-color: #f8f8f8;
+}
+
+.list {
+  margin-bottom: 20rpx;
+}
+
+.list-item { 
+  line-height: 100rpx; 
+  margin-top: 20rpx; 
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.list-item-title { 
+  padding-left: 20rpx;
+  font-size: 32rpx;
+  color: #333;
+}
+
+.right-icon {
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.right-icon image {
+  width: 50rpx;
+  height: 50rpx;
+  display: block;
+  margin: 25rpx auto 0;
+}
+
+.list-item-child {
+  position: relative;
+  top: 0;
+  width: 100%;
+  left: 0;
+  display: none;
+  background-color: #fff;
+}
+
+.childListShow {
+  display: block;
+}
+
+.list-item-child-item {
+  height: 100rpx;
+  width: 100%;
+  line-height: 100rpx;
+  display: flex;
+  border-bottom: solid #f1f1f1 1rpx;
+}
+
+.list-item-child-item .title {
+  font-size: 30rpx;
+  color: #333;
+  padding-left: 40rpx;
+  flex: 1;
+}
+
+.list-item-child-item .icon {
+  height: 100rpx;
+  width: 100rpx;
+}
+
+.list-item-child-item .icon image {
+  width: 40rpx;
+  height: 40rpx;
+  display: block;
+  margin: 25rpx auto 0;
+}
+
+.hover-active {
+  background-color: #f1f1f1;
+}

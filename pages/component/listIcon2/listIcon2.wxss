@@ -1,0 +1,146 @@
+/* pages/componentPage/listIcon2/listIcon2.wxss */
+page {
+  background-color: #f8f8f8;
+}
+
+.self-info {
+  padding: 30rpx;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.avater {
+  width: 90rpx;
+  height: 90rpx;
+  float: left;
+}
+
+.avater image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+}
+
+.self-info .nick {
+  width: 50%;
+  float: left;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  font-size:32rpx;
+  color:#333;
+}
+
+.self-info .message-tips {
+  float: right;
+  background: linear-gradient(135deg, rgba(255, 133, 91, 1) 1%, rgba(255, 178, 103, 1) 100%);
+  font-size: 30rpx;
+  padding: 15rpx;
+  border-radius: 30rpx;
+  margin-top: 15rpx;
+  color: #fff;
+}
+
+/* create-list */
+.create-list {
+  display: flex;
+  margin: 40rpx auto;
+}
+
+.create-item {
+  flex: 1;
+  text-align: center;
+}
+
+.create-item image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 10rpx;
+}
+
+.create-item .title {
+  font-size: 30rpx;
+  color: #666;
+}
+
+/* group-list */
+.group-list {
+  margin-top: 20rpx;
+  margin-bottom: 30rpx;
+  background-color: #fff;
+}
+
+.group-item {
+  overflow: hidden;
+  padding: 30rpx;
+  position: relative;
+  border-bottom: solid #f1f1f1 1rpx;
+}
+
+.group-item:last-child {
+  border: none;
+}
+
+.group-img {
+  width: 100rpx;
+  height: 100rpx;
+  float: left;
+}
+
+.group-img image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 10rpx;
+}
+
+.group-con {
+  width: 82%;
+  float: left;
+  margin-left: 20rpx;
+  position: relative;
+}
+
+.group-title {
+  font-size: 32rpx;
+  color: #333;
+  font-weight: 600;
+  width: 64%;
+  overflow: hiden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.group-time {
+  position: absolute;
+  top: 0;
+  right: 5rpx;
+  font-size: 24rpx;
+  color: #666;
+}
+
+.group-desc {
+  width: 100%;
+  font-size: 28rpx;
+  color: #666;
+  margin-top: 15rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.next-r {
+  position: absolute;
+  top: 50rpx;
+  right: 30rpx;
+  z-index: 2;
+}
+
+.next-r image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.hover-active {
+  background-color: #f1f1f1;
+}

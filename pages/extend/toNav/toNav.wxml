@@ -1,0 +1,10 @@
+<!--pages/extend/toNav/toNav.wxml-->
+<view class="list">
+  <view data-opt="list0" catchtap="jumpTo">list0</view>
+  <view data-opt="list11" catchtap="jumpTo">list11</view>
+  <view data-opt="list29" catchtap="jumpTo">list29</view>
+</view>
+
+<scroll-view scroll-into-view="{{toView}}" scroll-y="true"  scroll-with-animation="true" class="scr">
+  <view class="test" wx:for="{{list}}" id="{{item}}" wx:key="index" data-rol="{{item}}">{{item}}</view>
+</scroll-view>

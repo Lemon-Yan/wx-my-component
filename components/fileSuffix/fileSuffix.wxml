@@ -1,0 +1,4 @@
+<!--components/fileSuffix/fileSuffix.wxml-->
+<image class="file-type" wx:if="{{fileType=='doc'||fileType=='docx'}}" src="../../images/word.png"></image>
+<image class="file-type" wx:elif="{{fileType=='xls'||fileType=='xlsx'}}" src="../../images/excel.png"></image>
+<image class="file-type" wx:elif="{{fileType=='ppt'||fileType=='pptx'}}" src="../../images/ppt.png"></image>
