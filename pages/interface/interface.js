@@ -11,38 +11,40 @@ Page({
       title: '授权',
       checked: false,
       child: [{
-        title: "登录授权",
-        page: '../interfacePage/login/login'
+        title: "登录",
+        page: './login/login'
       },
       {
         title: "分享",
-        page: '../interfacePage/share/share'
-      },
+        page: './share/share'
+      }, 
       {
-        title: "列表项-图标2",
-        page: '../componentPage/listIcon2/listIcon2'
-      },
-      {
-        title: "列表项-左滑删除",
-        page: '../componentPage/listSlide/listSlide'
+        title: "获取用户信息",
+        page: './userInfo/userInfo'
+      },{
+        title:"设置",
+        page:'./set/set'
       }]
     }, {
-      title: '常用功能',
+      title: '界面',
       checked: false,
       child: [{
-        title: "打开图片、文档",
-        page: '../componentPage/slideImage/slideImage',
+        title: "下拉刷新",
+        page: './refreshDown/refreshDown',
       },
       {
-        title: "滑动组件",
-        page: ''
+        title: "页面滚动",
+        page: './scroll/scroll'
       }]
     },{
-      title:"模态弹窗",
+      title:"设备",
       checked:false,
       child:[{
-        title:'模态弹窗',
-        page:'../componentPage/module/module'
+        title:'获取手机网络状态',
+        page:'./newworkStatus/newworkStatus'
+      },{
+        title:'手机系统信息',
+        page:'./systemInfo/systemInfo'
       }]
     }]
   },
@@ -106,7 +108,7 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-
+  
   },
 
   /**

@@ -1,0 +1,28 @@
+/* pages/component/picker/picker.wxss */
+.picker {
+  padding: 10px 13px;
+  background-color: #FFFFFF;
+}
+
+.page-title {
+  font-size: 30rpx;
+  line-height: 100rpx;
+  height: 100rpx;
+  padding-left: 30rpx;
+}
+
+.page-cells {
+  display: flex;
+  height: 100rpx;
+  background-color: #fff;
+  line-height: 100rpx;
+} 
+
+.page-cells-title {
+  width: 30%;
+  text-align: center;
+}
+
+.page-cells-picker {
+  width: 70%;
+}

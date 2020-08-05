@@ -1,0 +1,9 @@
+/* pages/interface/refreshDown/refreshDown.wxss */
+.page-body-info {
+  background-color: transparent;
+  text-align: center;
+  margin-top: 50px;
+}
+.btn-area{
+  margin-top: 150px;
+}

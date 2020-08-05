@@ -23,7 +23,19 @@
     "pages/extend/chat/chat",
     "pages/extend/fullScreen/fullScreen",
     "pages/extend/componentAndPage/componentAndPage",
-    "pages/test3/test3"
+    "pages/test3/test3",
+    "pages/component/button/button",
+    "pages/component/form/form",
+    "pages/component/picker/picker",
+    "pages/component/editor/editor",
+    "pages/interface/userInfo/userInfo",
+    "pages/interface/set/set",
+    "pages/interface/refreshDown/refreshDown",
+    "pages/component/moduleAPI/moduleAPI",
+    "pages/interface/scroll/scroll",
+    "pages/component/toast/toast",
+    "pages/interface/newworkStatus/newworkStatus",
+    "pages/interface/systemInfo/systemInfo"
   ],
   "tabBar": {
     "position": "bottom",

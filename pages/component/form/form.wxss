@@ -1,0 +1,34 @@
+/* pages/component/form/form.wxss */
+.wrapper {
+  padding: 30rpx;
+}
+
+label {
+  display: inline-block;
+  min-width: 235px;
+  margin-right: 10px;
+}
+
+form {
+  width: 100%;
+}
+
+.picker-text {
+  margin-left: 10px;
+  position: relative;
+}
+
+.page-section-title {
+  font-size: 30rpx;
+  color: #999;
+  margin: 20rpx auto;
+}
+
+.page-section-input {
+  padding: 15rpx;
+  background-color: #fff;
+}
+
+button {
+  margin: 30rpx auto;
+}

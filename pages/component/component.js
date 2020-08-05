@@ -41,8 +41,35 @@ Page({
       title:"模态弹窗",
       checked:false,
       child:[{
-        title:'模态弹窗',
+        title:'模态弹窗-自定义',
         page:'./module/module'
+      },
+      {
+        title:'操作菜单、弹窗',
+        page:'./moduleAPI/moduleAPI'
+      },{
+        title:'提示框',
+        page:'./toast/toast'
+      }]
+    },
+    {
+      title:"表单组件",
+      checked:false,
+      child:[{
+        title:'按钮button',
+        page:'./button/button'
+      },
+      {
+        title:'form',
+        page:'./form/form'
+      },
+      {
+        title:'picker',
+        page:'./picker/picker'
+      },
+      {
+        title:'editor',
+        page:'./editor/editor'
       }]
     }]
   },

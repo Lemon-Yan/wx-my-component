@@ -1,0 +1,4 @@
+/* pages/interface/button/button.wxss */
+button{
+  margin:40rpx auto;
+}

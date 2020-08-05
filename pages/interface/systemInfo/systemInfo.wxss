@@ -1,0 +1,2 @@
+/* pages/interface/systemInfo/systemInfo.wxss */
+@import '../../../utils//weui.wxss';
